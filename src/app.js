@@ -4,6 +4,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import {Provider} from "react-redux";
 import {Router, Route} from "react-router";
+import injectTapEventPlugin from "react-tap-event-plugin";
+
 import store, {history} from "STORE";
 
 import NotFound from "COMPONENT/404.js";
@@ -20,6 +22,7 @@ if (__PROD__) {
 }
 
 const MOUNT_NODE = document.getElementById("app");
+injectTapEventPlugin();
 
 ReactDOM.render(
   <Provider store={store}>

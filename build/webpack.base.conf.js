@@ -23,7 +23,8 @@ module.exports = {
       "react-router-redux",
       "redux",
       "rxjs",
-      "redux-observable"
+      "redux-observable",
+      "material-ui"
     ]
   },
   output: {

@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 
 export default class NotFound extends Component {
   static contextTypes = {
@@ -6,7 +7,11 @@ export default class NotFound extends Component {
   }
 
   render() {
-    return <div>404 NOT FOUND</div>;
+    return (
+      <MuiThemeProvider>
+        <div>404 NOT FOUND</div>
+      </MuiThemeProvider>
+    );
   }
 }
 
