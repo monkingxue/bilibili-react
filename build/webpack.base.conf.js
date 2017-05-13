@@ -41,11 +41,9 @@ module.exports = {
       ACTION: path.join(src, "redux/actions"),
       REDUCER: path.join(src, "redux/reducers"),
       STORE: path.join(src, "redux/store"),
-      ROUTE: path.join(src, "routes"),
+      EPIC: path.join(src, "redux/epics"),
       SERVICE: path.join(src, "services"),
       UTIL: path.join(src, "utils"),
-      HOC: path.join(src, "utils/HoC"),
-      MIXIN: path.join(src, "utils/mixins"),
       VIEW: path.join(src, "views")
     }
   },
