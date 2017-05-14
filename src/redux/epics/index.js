@@ -1,6 +1,7 @@
 import {combineEpics} from "redux-observable";
-import adminAccess from "./adminAccess";
+
+import loginEpic from "./login";
 
 export default combineEpics(
-  adminAccess
+  loginEpic
 );
