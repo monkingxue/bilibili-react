@@ -1,0 +1,16 @@
+@import "../variable";
+
+.home {
+    background-color: #eaeaea;
+    min-height: 100vh;
+}
+
+.app-bar {
+    background-color: #FF80AB;
+    display: flex;
+    flex-direction: row;
+}
+
+.bar-font {
+    font-size: 20px;
+}

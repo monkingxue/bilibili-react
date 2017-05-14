@@ -1,0 +1,37 @@
+@import "../variable";
+
+.home-head-bar {
+  background-color: $pink;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+
+  .head-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -12px;
+
+    .avatar {
+      border: 2px #fff solid;
+      margin: 0 12px;
+    }
+
+    .name {
+      font-size: 18px;
+      font-weight: 300;
+    }
+
+  }
+
+  .head-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+
+}

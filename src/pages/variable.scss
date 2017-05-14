@@ -1,0 +1,19 @@
+$pink: #FF80AB;
+$light-pink: #F4CFDA;
+$gray: #EAEAEA;
+$white: #FFF;
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin sm-font($sm-fs) {
+  font-size: $sm-fs;
+  -webkit-transform: scale($sm-fs / 12px);
+}
