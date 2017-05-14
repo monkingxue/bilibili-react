@@ -24,7 +24,8 @@ module.exports = {
       "redux",
       "rxjs",
       "redux-observable",
-      "material-ui"
+      "material-ui",
+      "normalize.css"
     ]
   },
   output: {
@@ -37,11 +38,14 @@ module.exports = {
       // ================================
       // 自定义路径别名
       // ================================
+      SRC: src,
+      REDUX: path.join(src, "redux"),
       ASSET: path.join(src, "assets"),
       COMPONENT: path.join(src, "components"),
+      PAGE: path.join(src, "pages"),
       ACTION: path.join(src, "redux/actions"),
       REDUCER: path.join(src, "redux/reducers"),
-      STORE: path.join(src, "redux/store"),
+      STORE: path.join(src, "redux/stores"),
       EPIC: path.join(src, "redux/epics"),
       SERVICE: path.join(src, "services"),
       UTIL: path.join(src, "utils"),
